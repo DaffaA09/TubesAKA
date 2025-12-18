@@ -12,7 +12,7 @@ Contoh Implementasi (Iteratif)
             return True
     return False
 
-
+```python
 
 
 # Implementasi Linear Search Rekursif
@@ -20,9 +20,10 @@ Contoh Implementasi (Iteratif)
 Pendekatan rekursif melakukan pencarian dengan memanggil fungsi secara berulang. Pada setiap pemanggilan, fungsi akan memeriksa satu elemen data berdasarkan indeks tertentu, lalu melanjutkan pencarian ke indeks berikutnya hingga durasi lagu ditemukan atau indeks mencapai akhir array.
 
 Contoh Implementasi (Rekursif)
-def linear_search_recursive(arr, target, index=0):
+```def linear_search_recursive(arr, target, index=0):
     if index == len(arr):
         return False
     if arr[index] == target:
         return True
     return linear_search_recursive(arr, target, index + 1)
+```python
