@@ -12,7 +12,7 @@ Contoh Implementasi (Iteratif)
             return True
     return False
 
-```python
+...
 
 
 # Implementasi Linear Search Rekursif
@@ -26,4 +26,4 @@ Contoh Implementasi (Rekursif)
     if arr[index] == target:
         return True
     return linear_search_recursive(arr, target, index + 1)
-```python
+...
