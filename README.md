@@ -5,11 +5,14 @@
 Pendekatan iteratif melakukan pencarian dengan menggunakan perulangan untuk memeriksa setiap elemen durasi lagu secara berurutan, dimulai dari elemen pertama hingga elemen terakhir. Proses pencarian akan berhenti ketika durasi lagu yang dicari ditemukan atau seluruh data telah diperiksa.
 
 Contoh Implementasi (Iteratif)
-def linear_search_iterative(arr, target):
+
+```def linear_search_iterative(arr, target):
     for x in arr:
         if x == target:
             return True
     return False
+
+
 
 
 # Implementasi Linear Search Rekursif
