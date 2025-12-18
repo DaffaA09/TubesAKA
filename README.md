@@ -11,9 +11,7 @@ Contoh Implementasi (Iteratif)
         if x == target:
             return True
     return False
-
-...
-
+```
 
 # Implementasi Linear Search Rekursif
 
@@ -26,4 +24,5 @@ Contoh Implementasi (Rekursif)
     if arr[index] == target:
         return True
     return linear_search_recursive(arr, target, index + 1)
-...
+
+```
